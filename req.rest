@@ -1,0 +1,29 @@
+GET http://localhost:3000/products
+
+####
+
+GET http://localhost:3000/api/product/647ee2b64393f07c22db7ac1
+####
+
+POST http://localhost:3000/products
+Content-Type: application/json
+
+{
+    "name": "Javascript Lanjut 3",
+    "brand": "aaa",
+    "description": "true"
+}
+
+####
+PUT http://localhost:3000/api/product/647ee2b64393f07c22db7ac1
+Content-Type: application/json
+
+{
+    "title": "Golang Lanjut",
+    "price": 300000,
+    "stock": true
+}
+
+####
+
+DELETE http://localhost:3000/api/product/647ee2b64393f07c22db7ac1
