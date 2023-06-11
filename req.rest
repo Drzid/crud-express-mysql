@@ -1,29 +1,29 @@
 GET http://localhost:3000/products
 
 ####
+GET http://localhost:3000/products/2
 
-GET http://localhost:3000/api/product/647ee2b64393f07c22db7ac1
 ####
 
 POST http://localhost:3000/products
 Content-Type: application/json
 
 {
-    "name": "Javascript Lanjut 3",
-    "brand": "aaa",
+    "name": "x3",
+    "brand": "samsang",
     "description": "true"
 }
 
 ####
-PUT http://localhost:3000/api/product/647ee2b64393f07c22db7ac1
+PUT http://localhost:3000/products/2
 Content-Type: application/json
 
 {
-    "title": "Golang Lanjut",
-    "price": 300000,
-    "stock": true
+    "name": "x55",
+    "brand": "samsang",
+    "description": "true"
 }
 
 ####
 
-DELETE http://localhost:3000/api/product/647ee2b64393f07c22db7ac1
+DELETE http://localhost:3000/products/2
